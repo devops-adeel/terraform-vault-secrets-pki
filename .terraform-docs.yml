@@ -1,0 +1,21 @@
+sections:
+  show:
+    - all
+
+content: |-
+  {{ .Header }}
+
+  ```hcl
+  {{ include "examples/example-1/main.tf" }}
+  ```
+  {{ .Providers }}
+
+  {{ .Requirements }}
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
+
+  {{ .Resources }}
+
+  {{ .Footer }}
